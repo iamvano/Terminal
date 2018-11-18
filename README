@@ -1,0 +1,35 @@
+********************************************************************************
+*
+*                                  README
+* Encoding: UTF-8
+********************************************************************************
+
+
+This packet consists on:
+------------------------
+
+Task.pdf                - this is your task
+Quotes.exe              - quotes provider
+Terminal.exe            - this is an application to aggregate quotes from providers
+Qt*.dll                 - 64-x Qt libraries. Put them and Terminal.exe in one folder
+start_quotes.bat        - this is quotes providers running script. Put it and Quotes.exe
+                          in one folder
+
+
+How to run many quotes providers
+-------------------------------
+
+If you need to run many quotes providers, you can use a special script start_quotes.bat.
+You can setup the run settings in the script:
+
+set workDir="%~dp0"     # Quotes.exe folder (it's the script folder by default)
+set portFrom=9090       # [portFrom, portTo] - quotes providers ports range
+set portTo=9099         # 
+set periodInMs=1000     # the period of sending in milliseconds
+set quotes=1000         # the quote's number in one period
+
+
+System Requirements
+--------------------
+
+Windows 7 x64 or later
