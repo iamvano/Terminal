@@ -177,7 +177,7 @@ void QuoteProvidersTableView::guiSetup()
 
 	QHBoxLayout *selectedControlsLayout = new QHBoxLayout();
 	selectedControlsLayout->addWidget(new QLabel("SELECTED PROVIDER>"));
-	selectedControlsLayout->addStretch(1);
+	selectedControlsLayout->addStretch();
 	selectedControlsLayout->addWidget(disconnectProviderButton, 1);
 	selectedControlsLayout->addWidget(connectProviderButton, 1);
 	selectedControlsLayout->addWidget(removeProviderButton, 1);
