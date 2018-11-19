@@ -5,19 +5,33 @@
 ********************************************************************************
 
 
-This packet consists on:
-------------------------
+Sources of Terminal project
+---------------------------
 
+Used IDE:       Microsoft Visual Studio 2017
+Used Framework:	Qt 5.11.2
+Used libraries:	Protocol Buffers 3.6.1
+                (https://github.com/protocolbuffers/protobuf/releases/tag/v3.6.1)
+
+Download protobuf source code and setup 'Additional Include Directories' property to
+'src' folder (for example, C:\Users\name\Downloads\protobuf-3.6.1\src).
+
+
+Terminal.bin.zip packet consists on:
+------------------------------------
+
+platforms/qwindows.dll	- Qt plugin
+Qt*.dll                 - x64 Qt libraries. Put them and Terminal.exe in one folder
 Task.pdf                - this is your task
 Quotes.exe              - quotes provider
 Terminal.exe            - this is an application to aggregate quotes from providers
-Qt*.dll                 - 64-x Qt libraries. Put them and Terminal.exe in one folder
 start_quotes.bat        - this is quotes providers running script. Put it and Quotes.exe
                           in one folder
+READE
 
 
 How to run many quotes providers
--------------------------------
+--------------------------------
 
 If you need to run many quotes providers, you can use a special script start_quotes.bat.
 You can setup the run settings in the script:
@@ -30,6 +44,6 @@ set quotes=1000         # the quote's number in one period
 
 
 System Requirements
---------------------
+-------------------
 
 Windows 7 x64 or later
