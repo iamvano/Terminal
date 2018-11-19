@@ -9,8 +9,8 @@ Sources of Terminal project
 ---------------------------
 
 Used IDE:       Microsoft Visual Studio 2017
-Used Framework:	Qt 5.11.2
-Used libraries:	Protocol Buffers 3.6.1
+Used Framework: Qt 5.11.2
+Used libraries: Protocol Buffers 3.6.1
                 (https://github.com/protocolbuffers/protobuf/releases/tag/v3.6.1)
 
 Download protobuf source code and setup 'Additional Include Directories' property to
@@ -20,7 +20,7 @@ Download protobuf source code and setup 'Additional Include Directories' propert
 Terminal.bin.zip packet consists on:
 ------------------------------------
 
-platforms/qwindows.dll	- Qt plugin
+platforms/qwindows.dll  - Qt plugin
 Qt*.dll                 - x64 Qt libraries. Put them and Terminal.exe in one folder
 Task.pdf                - this is your task
 Quotes.exe              - quotes provider
